@@ -1,0 +1,61 @@
+.titlePage{
+  height: 100vh;
+  background-image: url("../Images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    row-gap: 30px;
+
+    h2{
+      color: white;
+      font-size: 54px;
+      font-family: "Noto Sans";
+      font-weight: 500;
+    }
+
+    p{
+      color: white;
+      font-size: 20px;
+      font-family: "Noto Sans";
+      font-weight: 500;
+    }
+
+    span{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      color: white;
+      font-size: 20px;
+      font-family: "Noto Sans";
+      font-weight: 500;
+      &::before{
+        content: '';
+        border: none;
+        padding: 3px 40px;
+        background-color: #a23c09;
+      }
+    }
+
+    button{
+      background-color: #a23c09;
+      height: 60px;
+      width: 300px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      a{
+        color: white;
+        font-size: 20px;
+        font-family: "Noto Sans";
+        font-weight: 500;
+      }
+    }
+  }
+}

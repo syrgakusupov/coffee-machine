@@ -1,0 +1,60 @@
+.malfunctions{
+  height: 120vh;
+
+  .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    h1{
+      color: black;
+      font-size: 40px;
+      font-family: "Noto Sans";
+      font-weight: 400;
+      margin-bottom: 50px;
+    }
+
+    &_map{
+      height: 100vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      row-gap: 40px;
+
+
+      &_product{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        box-shadow: 10px 10px 18px #8c8a8a;
+        border-radius: 5px;
+        padding: 0 10px;
+        &_text{
+          display: flex;
+          flex-direction: column;
+          p{
+            width: 150px;
+            font-size: 20px;
+            font-family: "Noto Sans";
+            font-weight: 600;
+          }
+          span{
+            font-size: 20px;
+            color: red;
+          }
+        }
+    }
+
+
+      img{
+        width: 180px;
+      }
+    }
+  }
+}

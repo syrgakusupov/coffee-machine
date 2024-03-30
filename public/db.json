@@ -1,0 +1,57 @@
+[
+{
+  "id":1,
+  "title": "Нет подачи воды",
+  "price": 400,
+  "image": "./imageDb/img1.png"
+  
+},
+{
+  "id":2,
+  "title": "Не варит кофе",
+  "price": 350,
+  "image": "./imageDb/img2.png"
+},
+{
+  "id":3,
+  "title": "Протекает вода",
+  "price": 400,
+  "image": "./imageDb/img3.png"
+},
+{
+  "id":4,
+  "title": "Не видит кофе",
+  "price": 400,
+  "image": "./imageDb/img4.png"
+},
+{
+  "id":5,
+  "title": "Не работают кнопки",
+  "price": 380,
+  "image": "./imageDb/img5.png"
+},
+{
+  "id":6,
+  "title": "Не нагревает воду",
+  "price": 500,
+  "image": "./imageDb/img6.png"
+},
+{
+  "id":7,
+  "title": "Ошибка на дисплее",
+  "price": 300,
+  "image": "./imageDb/img7.png"
+},
+{
+  "id":8,
+  "title": "Нет питания",
+  "price": 350,
+  "image": "./imageDb/img8.png"
+},
+{
+  "id":9,
+  "title": "Нет наличия воды",
+  "price": 300,
+  "image": "./imageDb/img9.png"
+}
+]

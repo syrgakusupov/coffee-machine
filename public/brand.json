@@ -1,0 +1,74 @@
+[
+  {
+   "id": 1,
+    "image": "./imgBrands/brand1.png"
+  },
+  {
+    "id": 2,
+    "image": "./imgBrands/brand2.png"
+  },
+  {
+    "id": 3,
+    "image": "./imgBrands/brand3.png"
+  },
+  {
+    "id": 4,
+    "image": "./imgBrands/brand4.png"
+  },
+  {
+    "id": 5,
+    "image": "./imgBrands/brand5.png"
+  },
+  {
+    "id": 6,
+    "image": "./imgBrands/brand6.png"
+  },
+  {
+    "id": 7,
+    "image": "./imgBrands/brand7.png"
+  },
+  {
+    "id": 8,
+    "image": "./imgBrands/brand8.png"
+  },
+  {
+    "id": 9,
+    "image": "./imgBrands/brand9.png"
+  },
+  {
+    "id": 10,
+    "image": "./imgBrands/brand10.png"
+  },
+  {
+    "id": 11,
+    "image": "./imgBrands/brand11.png"
+  },
+  {
+    "id": 12,
+    "image": "./imgBrands/brand12.png"
+  },
+  {
+    "id": 13,
+    "image": "./imgBrands/brand13.png"
+  },
+  {
+    "id": 14,
+    "image": "./imgBrands/brand14.png"
+  },
+  {
+    "id": 15,
+    "image": "./imgBrands/brand15.png"
+  },
+  {
+    "id": 16,
+    "image": "./imgBrands/brand16.png"
+  },
+  {
+    "id": 17,
+    "image": "./imgBrands/brand17.png"
+  },
+  {
+    "id": 18,
+    "image": "./imgBrands/brand18.png"
+  }
+]

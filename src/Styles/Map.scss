@@ -1,0 +1,58 @@
+.map{
+  height: 100vh;
+
+  &_container{
+
+    h1{
+      display: flex;
+      justify-content: center;
+      color: black;
+      font-size: 40px;
+      font-family: "Noto Sans";
+      font-weight: 400;
+    }
+
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    &_content{
+      display: flex;
+      align-items: center;
+      column-gap: 200px;
+
+      &_item{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+
+        p{
+          height: 80px;
+          font-size: 80px;
+          color: #a23c09;
+        }
+
+        &_text{
+          display: flex;
+          flex-direction: column;
+          b{
+            color: black;
+            font-size: 24px;
+          }
+          span{
+            color: black;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    iframe{
+      border-radius: 5px;
+      border: none;
+    }
+  }
+}
