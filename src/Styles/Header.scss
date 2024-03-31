@@ -53,3 +53,23 @@
     }
   }
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .Header{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    .container{
+      height: 70px;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      img{
+        display: none;
+      }
+      ul{
+        display: none;
+      }
+    }
+  }
+}

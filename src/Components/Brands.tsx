@@ -24,7 +24,7 @@ const Brands = () => {
                 <div className='brands_container_item'>
                     {
                         brand.map((item) => (
-                            <div className='brands_container_item_image'>
+                            <div key={item.id} className='brands_container_item_image'>
                                 <img src={item.image} alt=""/>
                             </div>
                         ))

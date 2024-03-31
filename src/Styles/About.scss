@@ -41,3 +41,32 @@
     }
   }
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .about{
+    height: 140vh;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+
+    .container{
+      height: 140vh;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      flex-direction: column;
+
+      img{
+        width: 360px;
+      }
+      .text{
+        h1{
+          font-size: 30px;
+        }
+        p{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

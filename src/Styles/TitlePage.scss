@@ -59,3 +59,40 @@
     }
   }
 }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .titlePage{
+    height: 60vh;
+    max-width: 360px;
+    margin: 0 auto;
+    background-color: #a23c09;
+    .container{
+      height: 60vh;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      padding: 20px 0;
+      h2{
+        font-size: 32px;
+      }
+
+      p{
+        font-size: 10px;
+      }
+      span{
+        font-size: 10px;
+        &::before{
+          padding: 1.5px 20px;
+        }
+      }
+      button{
+        height: 40px;
+        width: 150px;
+
+        a{
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,9 @@
 .map{
   height: 100vh;
-
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   &_container{
-
     h1{
       display: flex;
       justify-content: center;
@@ -60,6 +61,46 @@
     iframe{
       border-radius: 5px;
       border: none;
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .map{
+    height: 100vh;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    &_container{
+      height: 100vh;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      h1{
+        font-size: 26px;
+        text-underline-offset: 8px;
+      }
+      &_content{
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: start;
+        &_item{
+          align-items: start;
+          &_text{
+            b{
+              font-size: 20px;
+            }
+            span{
+              font-size: 18px;
+            }
+          }
+        }
+
+      }
+      iframe{
+        width: 360px;
+        height: 220px;
+      }
     }
   }
 }

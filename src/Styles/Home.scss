@@ -4,3 +4,11 @@
   row-gap: 100px;
   background-color: #d7d7d7;
 }
+@media (min-width: 36px) and (max-width: 480px){
+  .home{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    row-gap: 50px;
+  }
+}

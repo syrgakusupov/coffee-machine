@@ -1,6 +1,8 @@
 .price{
   height: 100vh;
-
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   &_container{
     height: 100vh;
     width: 100%;
@@ -66,6 +68,50 @@
         font-size: 30px;
         color: white;
 
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+  .price{
+    height: 140vh;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    &_container{
+      height: 140vh;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      column-gap: 0;
+      h1{
+        font-size: 26px;
+        text-underline-offset: 8px;
+      }
+      &_item{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        &_text{
+            column-gap: 0;
+          p{
+            font-size: 12px;
+          }
+          span{
+            font-size: 12px;
+          }
+        }
+        hr{
+          width: 300px;
+          margin-top: 6px;
+        }
+      }
+      button{
+        width: 250px;
+        height: 40px;
+        a{
+          font-size: 20px;
+        }
       }
     }
   }

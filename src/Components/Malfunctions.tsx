@@ -20,7 +20,7 @@ const Malfunctions = () => {
                     <div className='container_map'>
                         {
                             db.map((item) => (
-                                <div className='container_map_product'>
+                                <div key={item.id} className='container_map_product'>
                                     <img src={item.image} alt=""/>
                                     <div className='container_map_product_text'>
                                         <p>{item.title}</p>

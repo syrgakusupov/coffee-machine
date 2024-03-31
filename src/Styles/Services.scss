@@ -1,5 +1,8 @@
 .services{
   height: 60vh;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   &_container{
     height: 60vh;
     width: 100%;
@@ -23,7 +26,7 @@
     &_content{
       display: flex;
       justify-content: space-between;
-
+      align-items: center;
       &_block1{
         background-image: url("../Images/image3.svg");
         background-size: cover;
@@ -105,7 +108,6 @@
           transition: 1s;
           filter: brightness(100%);
           ul{
-            color: black;
             transition: 0.7s;
             color: white;
           }
@@ -158,5 +160,61 @@
     }
 
 
+  }
+}
+
+@media (min-width: 360px) and (max-width: 480px){
+  .services{
+    height: 130vh;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    &_container{
+      height: 130vh;
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+
+      h1{
+        font-size: 26px;
+        text-underline-offset: 8px;
+      }
+
+      &_content{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        &_block1{
+          width: 280px;
+          height: 180px;
+          h2{
+            font-size: 24px;
+          }
+          ul{
+            font-size: 13px;
+          }
+        }
+        &_block2{
+          width: 280px;
+          height: 180px;
+          h2{
+            font-size: 24px;
+          }
+          ul{
+            font-size: 13px;
+          }
+        }
+        &_block3{
+          width: 280px;
+          height: 180px;
+          h2{
+            font-size: 24px;
+          }
+          ul{
+            font-size: 13px;
+          }
+        }
+      }
+  }
   }
 }
