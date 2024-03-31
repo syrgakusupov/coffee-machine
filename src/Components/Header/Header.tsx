@@ -14,7 +14,7 @@ const Header = () => {
                     <a href="sd">Отзывы</a>
                 </ul>
 
-                <button><a href="tel: +7(966)666-21-04">+7 (966) 666-21-04</a></button>
+                <button><a href="tel: +7 925 868-12-96">+7 925 868-12-96</a></button>
             </div>
         </header>
     );

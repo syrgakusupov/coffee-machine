@@ -31,8 +31,7 @@ const Map = () => {
                         </div>
                     </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7507.205105422919!2d74.59256584893625!3d42.83842118015919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb61f8eba31d5%3A0xa84c40ec477ce475!2sAtaturk%20Park!5e0!3m2!1sru!2skg!4v1711788451130!5m2!1sru!2skg" width="1300" height="400" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.3026678885954!2d37.49910767640875!3d55.77061499061958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5490d62500001%3A0x1c1ed4f78ec14614!2zMi3QuSDQodC40LvQuNC60LDRgtC90YvQuSDQv9GALdC0LCA50YE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTIzMzA4!5e0!3m2!1sru!2skg!4v1711863041044!5m2!1sru!2skg" width="1300" height="400" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>            </div>
         </section>
     );
 };

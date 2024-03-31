@@ -7,6 +7,8 @@
       display: flex;
       justify-content: center;
       color: black;
+      text-decoration: underline solid #a23c09;
+      text-underline-offset: 15px;
       font-size: 40px;
       font-family: "Noto Sans";
       font-weight: 400;
@@ -31,9 +33,10 @@
         column-gap: 20px;
 
         p{
-          height: 80px;
+          height: 75px;
           font-size: 80px;
           color: #a23c09;
+
         }
 
         &_text{
@@ -42,10 +45,14 @@
           b{
             color: black;
             font-size: 24px;
+            font-family: "Noto Sans";
+            font-weight: 400;
           }
           span{
             color: black;
             font-size: 20px;
+            font-family: "Noto Sans";
+            font-weight: 400;
           }
         }
       }
