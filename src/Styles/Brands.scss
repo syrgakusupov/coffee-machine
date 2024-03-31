@@ -1,10 +1,10 @@
 .brands{
-  height: 90vh;
+  height: 80vh;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
 
-  &_container{
+  &_containe{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -28,7 +28,7 @@
       align-items: center;
       justify-content: space-between;
       column-gap: 60px;
-      row-gap: 40px;
+      row-gap: 30px;
       &_image{
         box-shadow: 10px 10px 18px #8c8a8a;
         background-color: white;
@@ -43,12 +43,12 @@
 
 @media (min-width: 360px) and (max-width: 480px){
   .brands{
-    height: 210vh;
+    height: 190vh;
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
-    &_container{
-      height: 210vh;
+    &_containe{
+      height: 240vh;
       width: 100%;
       max-width: 360px;
       margin: 0 auto;
@@ -68,6 +68,34 @@
       }
     }
   }
+}
 
+@media (min-width: 768px) and (max-width: 900px){
+  .brands{
+    height: 160vh;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    &_containe{
+      height: 170vh;
+      width: 100%;
+      max-width: 710px;
+      margin: 0 auto;
+      h1{
+        font-size: 30px;
+        text-align: center;
+        text-underline-offset: 8px;
+      }
+      &_item{
 
+        justify-content: center;
+        &_image{
+          img{
+            width: 170px;
+          }
+
+        }
+      }
+    }
+  }
 }

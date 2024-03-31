@@ -13,16 +13,16 @@ const Malfunctions = () => {
         setDb(response.data)
     }
     return (
-        <div className='malfunctions'>
+        <div className='malfunctions' id='id1'>
 
-            <section className='container'>
+            <section className='containe'>
                 <h1>Популярные неисправности кофемашин</h1>
-                    <div className='container_map'>
+                    <div className='map'>
                         {
                             db.map((item) => (
-                                <div key={item.id} className='container_map_product'>
+                                <div key={item.id} className='product'>
                                     <img src={item.image} alt=""/>
-                                    <div className='container_map_product_text'>
+                                    <div className='text'>
                                         <p>{item.title}</p>
                                         <span>От{item.price} руб.</span>
                                     </div>

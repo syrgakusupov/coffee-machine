@@ -75,14 +75,14 @@ const Prices = () => {
 
     ]
     return (
-        <section className='price'>
-            <div className='price_container'>
+        <section className='price' id='id2'>
+            <div className='price_containe'>
                 <h1>Цены на ремонт</h1>
-                <div className='price_container_item'>
+                <div className='price_containe_item'>
                     {
                         prices.map((item)=> (
                             <div key={item.id}>
-                                <div className='price_container_item_text'>
+                                <div className='price_containe_item_text'>
                                     <p>{item.title}</p>
                                     <span>{item.price}</span>
                                 </div>

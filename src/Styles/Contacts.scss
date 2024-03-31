@@ -1,6 +1,6 @@
 .con{
 
-  .container{
+  .containe{
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -21,12 +21,25 @@
 
 @media (min-width: 360px) and (max-width: 480px) {
   .con{
-    .container{
+    .containe{
       right: 10px;
-      bottom: 5px;
+      bottom: 15px;
 
       a{
         font-size: 36px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .con{
+    .containe{
+      right: 50px;
+      bottom: 8px;
+
+      a{
+        font-size: 50px;
       }
     }
   }

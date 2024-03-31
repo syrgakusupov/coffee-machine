@@ -3,7 +3,7 @@ import '../Styles/TitlePage.scss'
 const TitlePage = () => {
     return (
         <section className='titlePage'>
-            <div className="container">
+            <div className="containe">
                 <h2>Ремонт кофемашин</h2>
                 <p>
                     за 1 час прямо у вас домаДелаю срочный и качественный ремонт <br/>

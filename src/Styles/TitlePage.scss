@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
 
-  .container{
+  .containe{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -55,6 +55,7 @@
         font-size: 20px;
         font-family: "Noto Sans";
         font-weight: 500;
+        text-decoration: none;
       }
     }
   }
@@ -66,7 +67,7 @@
     max-width: 360px;
     margin: 0 auto;
     background-color: #a23c09;
-    .container{
+    .containe{
       height: 60vh;
       width: 100%;
       max-width: 360px;
@@ -88,9 +89,48 @@
       button{
         height: 40px;
         width: 150px;
-
+        line-height: 15px;
         a{
           font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .titlePage{
+    height: 95vh;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: #a23c09;
+
+    .containe{
+      height:90vh;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 80px 10px;
+      h2{
+        font-size: 38px;
+      }
+
+      p{
+        font-size: 18px;
+      }
+      span{
+        font-size: 20px;
+        &::before{
+          padding: 1.5px 20px;
+        }
+      }
+      button{
+        height: 60px;
+        width: 155px;
+
+        a{
+          font-size: 14px;
         }
       }
     }

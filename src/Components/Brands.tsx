@@ -17,14 +17,14 @@ const Brands = () => {
         }, [])
 
     return (
-        <section className='brands'>
-            <div className='brands_container'>
+        <section className='brands' id='id3'>
+            <div className='brands_containe'>
                 <h1>Ремонт популярных брендов</h1>
 
-                <div className='brands_container_item'>
+                <div className='brands_containe_item'>
                     {
                         brand.map((item) => (
-                            <div key={item.id} className='brands_container_item_image'>
+                            <div key={item.id} className='brands_containe_item_image'>
                                 <img src={item.image} alt=""/>
                             </div>
                         ))

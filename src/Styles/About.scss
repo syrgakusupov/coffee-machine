@@ -2,7 +2,7 @@
   height: 90vh;
 
 
-  .container{
+  .containe{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -18,7 +18,7 @@
     .text{
       display: flex;
       flex-direction: column;
-      row-gap: 30px;
+      row-gap: 10px;
 
       h1{
         color: black;
@@ -44,13 +44,13 @@
 
 @media (min-width: 360px) and (max-width: 480px) {
   .about{
-    height: 140vh;
+    height: 170vh;
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
 
-    .container{
-      height: 140vh;
+    .containe{
+      height: 170vh;
       width: 100%;
       max-width: 360px;
       margin: 0 auto;
@@ -65,6 +65,35 @@
         }
         p{
           font-size: 13px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .about{
+    height: 265vh;
+    width: 100%;
+    max-width: 715px;
+    margin: 0 auto;
+
+    .containe{
+      height: 225vh;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      flex-direction: column;
+
+      img{
+        width: 715px;
+
+      }
+      .text{
+        h1{
+          font-size: 50px;
+        }
+        p{
+          font-size: 22px;
         }
       }
     }

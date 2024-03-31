@@ -5,7 +5,7 @@ import { IoArrowRedoSharp } from "react-icons/io5";
 const About = () => {
     return (
         <section className="about">
-            <div className="container">
+            <div className="containe">
                 <img src={aboutImage} alt=""/>
                 <div className='text'>
                     <h1>Обо мне</h1>

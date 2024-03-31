@@ -6,26 +6,27 @@ import { MdOutlineStarBorder } from "react-icons/md";
 const Map = () => {
     return (
         <section className='map'>
-            <div className='map_container'>
+            <div className='map_containe'>
                 <h1>График и адрес</h1>
-                <div className='map_container_content'>
-                    <div className='map_container_content_item'>
+                <div className='map_containe_content'>
+                    <div className='map_containe_content_item'>
                         <p><IoShieldCheckmarkOutline /></p>
-                        <div className='map_container_content_item_text'>
+                        <div className='map_containe_content_item_text'>
                             <b>Работаем</b>
                             <span>круглосуточно</span>
                         </div>
+
                     </div>
-                    <div className='map_container_content_item'>
+                    <div className='map_containe_content_item' id='id4'>
                         <p><WiTime1 /></p>
-                        <div className='map_container_content_item_text'>
+                        <div className='map_containe_content_item_text'>
                             <b>Ремонт за</b>
                             <span>20 минут при вас</span>
                         </div>
                     </div>
-                    <div className='map_container_content_item'>
+                    <div className='map_containe_content_item'>
                         <p><MdOutlineStarBorder /></p>
-                        <div className='map_container_content_item_text'>
+                        <div className='map_containe_content_item_text'>
                             <b>Гарантия</b>
                             <span>качества</span>
                         </div>

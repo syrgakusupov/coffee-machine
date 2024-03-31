@@ -2,7 +2,7 @@ footer{
   height: 20vh;
 
   background-color: black;
-  .container{
+  .containe{
     height: 10vh;
     width: 100%;
     max-width: 1300px;
@@ -36,6 +36,7 @@ footer{
           flex-direction: column;
           font-size: 18px;
           a{
+            text-decoration: none;
             color: white;
             font-size: 16px;
           }
@@ -51,7 +52,7 @@ footer{
     width: 100%;
     max-width: 360px;
     margin: 0 auto;
-    .container{
+    .containe{
       height: 30bh;
       width: 100%;
       max-width: 360px;
@@ -68,6 +69,66 @@ footer{
             font-size: 14px;
             a{
               font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  footer{
+    height: 35vh;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    .containe{
+      height: 30bh;
+      width: 100%;
+      max-width: 710px;
+      margin: 0 auto;
+      flex-direction: column;
+      row-gap: 20px;
+      h2{
+        font-size: 30px;
+      }
+      .content{
+
+        &_contact{
+          p{
+            font-size: 18px;
+            a{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 778px) and (max-width: 900px) {
+  footer{
+    height: 25vh;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    .containe{
+      height: 710vh;
+      width: 100%;
+      max-width: 768px;
+      margin: 0 auto;
+      flex-direction: column;
+      row-gap: 20px;
+      h2{
+        font-size: 30px;
+      }
+      .content{
+
+        &_contact{
+          p{
+            font-size: 18px;
+            a{
+              font-size: 15px;
             }
           }
         }

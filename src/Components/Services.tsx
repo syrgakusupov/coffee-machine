@@ -5,10 +5,10 @@ import { IoIosArrowForward } from "react-icons/io";
 const Services = () => {
     return (
         <section className='services'>
-            <div className='services_container'>
+            <div className='services_containe'>
                 <h1>Дополнительные услуги</h1>
-               <div className='services_container_content'>
-                   <div className='services_container_content_block1'>
+               <div className='services_containe_content'>
+                   <div className='services_containe_content_block1'>
                        <h2>Чистка <IoIosArrowForward/></h2>
                        <ul>
                            <p>от кофейных масел (декофенация)</p>
@@ -19,7 +19,7 @@ const Services = () => {
                        </ul>
 
                    </div>
-                   <div className='services_container_content_block2'>
+                   <div className='services_containe_content_block2'>
                        <h2>Декальцинация <IoIosArrowForward/></h2>
                        <ul>
                            <p>удаление пробок кальция</p>
@@ -27,14 +27,12 @@ const Services = () => {
                        </ul>
 
                    </div>
-                   <div className='services_container_content_block3'>
+                   <div className='services_containe_content_block3'>
                        <h2>Сервисное обслуживание <IoIosArrowForward/></h2>
                        <ul>
                            <p>консультации</p>
                            <p>регулировка настроек</p>
-                           <p>очистка и декальцинация внутренних поверхностей</p>
-                           <p>замена запчастей</p>
-                           <p>тестирование кофемашины</p>
+                           <p>очистка</p>
                        </ul>
                    </div>
                </div>
